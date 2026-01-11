@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  border-right: 2px solid #808080;
+}
+
+.sidebar-icon {
+  width: 40px;
+  height: 40px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.notes-color-picker {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.note-color {
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.note-color-one {
+  background-color: #f0a77f;
+}
+
+.note-color-two {
+  background-color: #df7ff0;
+}
+
+.note-color-three {
+  background-color: #7ff0a7;
+}
+
+.note-color-four {
+  background-color: #7feef0;
+}
+
+.main {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 60px;
+}
+
+.search-box {
+  height: 35px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 20px;
+  border-radius: 50px;
+  border: 2px solid #808080;
+  padding-left: 10px;
+}
+
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.search-input {
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  font-size: 15px;
+}
+
+.main-title {
+  font-weight: bold;
+  color: #000;
+  font-size: 50px;
+  margin-top: 35px;
+}
+
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  margin-top: 60px;
+}
+
+.notes-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.notes-card-one {
+  background-color: #f0a77f;
+}
+.notes-card-two {
+  background-color: #df7ff0;
+}
+
+.notes-card-three {
+  background-color: #7ff0a7;
+}
+
+.notes-card-four {
+  background-color: #7feef0;
+}
+
+.note-content {
+  font-size: 18px;
+  color: #000;
+}
+
+.note-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note-text {
+  font-size: 15px;
+}
+
+.edit-icon {
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
